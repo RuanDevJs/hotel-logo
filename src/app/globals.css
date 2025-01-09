@@ -2,20 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.background {
+  background: url("../assets/Background.jpg") no-repeat center center;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.grid-qualitys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.grid-room {
+  grid-column: 1/2;
+  grid-row: 1/3;
 }

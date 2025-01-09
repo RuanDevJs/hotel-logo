@@ -1,0 +1,25 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".next": true,
+    "node_modules": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    ".prettierrc.json": true,
+    "README.md": true,
+    "tsconfig.json": true,
+    "next.config.mjs": true,
+    "postcss.config.mjs": true,
+    "yarn.lock": true,
+    ".eslintrc.json": true,
+    "next-env.d.ts": true,
+    "public": true,
+    "eslint.config.mjs": true,
+    "next.config.ts": true
+  }
+}
